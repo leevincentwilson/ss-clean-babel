@@ -1,0 +1,21 @@
+{
+  "name": "ss-clean-babel",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js src --config ./config/.eslintrc.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "devDependencies": {
+    "ss-clean-lint": "^1.0.1"
+  }
+}
