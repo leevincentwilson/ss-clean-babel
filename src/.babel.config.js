@@ -1,7 +1,8 @@
 module.exports = () => ({
   presets: [
     "@babel/env",
-    "@babel/preset-react"
+    "@babel/preset-react",
+    "flow"
   ],
   plugins:[
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
